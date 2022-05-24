@@ -62,7 +62,7 @@ const Todos = () => {
  //fetch("http://localhost:8000/todos?_page=1&_limit=2")
   useEffect(()=>{
 
-    fetch("http://localhost:8000/todos")
+    fetch("http://localhost:8000/todos?_page=1&_limit=2")
     .then((r)=>r.json())
     .then((d)=>{
     //   console.log(d);
